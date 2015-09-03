@@ -7,4 +7,4 @@ How to setup
 3. Open the index.html in your browser.
 4. Have fun.
 
-![John Resig Screenshot](http://imgur.com/UYlRmSe) 
+![John Resig Screenshot](http://i.imgur.com/UYlRmSe.png) 
