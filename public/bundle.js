@@ -23896,9 +23896,9 @@
 	  }, {
 	    key: 'handleAddNote',
 	    value: function handleAddNote(newNote) {
-	      var currentUserName = this.getCurrentParams().username;
-	      base.post(this.router.getCurrentParams.username, {
-	        data: this.ref.child(currentUserName).push([newNote])
+	      var currentUserName = this.router.getCurrentParams().username;
+	      base.post(this.router.getCurrentParams().username, {
+	        data: this.state.notes.concat([newNote])
 	      });
 	    }
 	  }, {
